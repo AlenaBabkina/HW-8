@@ -23,7 +23,7 @@ public class Main {
 
         }
         System.out.println("Задача 2.2");
-        for (int remaining = 42195; remaining > 0; remaining -= 500) {
+        for (int remaining = 42195 - 500; remaining > 0; remaining -= 500) {
             System.out.println("Держитесь! Осталось " + remaining + " метров");
         }
         {
